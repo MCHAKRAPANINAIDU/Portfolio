@@ -26,20 +26,24 @@
   <!--Body section -->
   <body id="body">
       
-      <div class="container-fluid" id="navbar">
-        <div class="row">
-            <ul>
-            <li><div class="col-xs-4 col-ms-4"><a class="btn title" role="button" href="#body">My Portfolio</a>
-        </div></li>
-          <li><div class="col-xs-2 col-ms-2"><a class="btn" role="button" href="#about"><img src="about.png" alt="About image comes here,But not avaliable for some problem"></a>
-          </div></li>
-          <li><div class="col-xs-2 col-ms-2"><a class="btn" role="button" href="#skills"><img src="Untitled.jpg" alt="Skills image comes here,But not avaliable for some problem"></a>
-          </div></li>
-          <li><div class="col-xs-2 col-ms-2"><a class="btn" role="button" href="#hobbies"><img src="hobbies.png" alt="Hobbies imaage comes here,But not avaliable for some problem"></a>
-          </div></li>
-          <li><div class="col-xs-2 col-ms-2"><a class="btn" role="button" href="#contact"><img src="contact.jpg" alt="Contact image comes here,But not avaliable for some problem"></a></div></li></ul>
-          </div>
-      </div>
+      <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+    <div class="overlay-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies & Interestes</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="#home">My portfolio</a>
+  <a href="#about"><img src="img/about.png"></a>
+  <a href="#skills"><img src="img/Untitled.jpg"></a>
+  <a href="#hobbies"><img src="img/hobbies.png"></a>
+  <a href="#contact"><img src="img/contact.jpg"></a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="openNav()">&#9776;  More</a>
+</div>
         <div class="container-fluid" id="top-section">
                 <div class="row">
                     <img src="chakri.jpg" alt="My image comes here,but not available due to some problem">
